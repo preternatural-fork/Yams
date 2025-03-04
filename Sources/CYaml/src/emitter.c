@@ -976,7 +976,7 @@ yaml_emitter_emit_block_mapping_value(yaml_emitter_t *emitter,
                 YAML_EMIT_BLOCK_MAPPING_KEY_STATE))
         return 0;
 
-    return yaml_emitter_emit_node(emitter, event, 0, 0, 1, 0);
+    return yaml_emitter_emit_node(emitter, event, 0, 0, 0, 0);
 }
 
 /*
