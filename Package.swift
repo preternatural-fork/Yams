@@ -1,10 +1,13 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
     name: "Yams",
     products: [
-        .library(name: "Yams", targets: ["Yams"])
+        .library(
+            name: "Yams",
+            targets: ["Yams"]
+        )
     ],
     dependencies: [],
     targets: [
